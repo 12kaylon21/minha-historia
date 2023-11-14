@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>história do corinthians</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <script src="teste.js"></script>
+</head>
+
+
+<body>
+  
+
+
+  Às 20h30 do dia 1º de setembro, à luz de um lampião,
+   na esquina das ruas José Paulino e Cônego 
+   Martins, no bairro do Bom Retiro,o grupo de operários
+    formado por Anselmo Corrêa, Antônio Pereira, 
+   Carlos Silva, Joaquim Ambrósio e Raphael Perrone fundaram 
+   o Sport Club Corinthians Paulista. Com mais oito rapazes, foi formada a reunião dos primeiros
+   integrantes e sócio-fundadores do Timão, que teve 
+   seu nome inspirado na equipe inglesa
+  Corinthian-Casuals Football Club, que fazia excursão pelo Brasil.
+   O presidente escolhido por eles foi o
+   alfaiate Miguel Battaglia, que, já no primeiro momento, afirmou:
+    “O Corinthians vai ser o time do povo e o povo é quem vai fazer o time”. 
+    Um terreno alugado na Rua José Paulino foi aplainado, virou campo e foi lá que,
+     já no dia 14 de setembro, o primeiro treino foi realizado
+ diante de uma plateia entusiasmada, que garantiu: “Este veio para ficar!”.
+
+
+  
+     
+   
+
+<button type="button" onclick="document.getElementById('txt01').style.display='block'">Saiba mais</button>
+<button type="button" onclick="document.getElementById('txt01').style.display='none'">Ocultar</button>
+
+       </div>
+
+      <div class="swiper"> 
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="img/download.jpeg"  width="600" height="400" alt=""></div>
+    <div class="swiper-slide"><img src="img/torcida_do_corinthians_na_estreia_do_paulista_lf1n.jpg" width="400" height="200" alt=""></div>
+    <div class="swiper-slide"><img src="img/Cassionataca.jpg" width="400" height="200" alt=""></div>
+    ...
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script>const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+})
+</script>
+
+</body>
+</html> 
